@@ -10,7 +10,7 @@
 5. D&D `.exo` file exported Blender into AviUtl's timeline
 6. enjoy!
 
-##description of setting
+## description of setting
 
 - **scale of AviUtl camera**
   the scale of the camera coordinate; default: 100
