@@ -127,7 +127,7 @@ class ExportAviutlCamera(bpy.types.Operator, ExportHelper):
             
             o = scene.camera
             mtx = o.matrix_world
-            loc = o.location * self.scale
+            loc = mtx.to_translation() * self.scale
             fov = o.data.angle/math.pi*180
             fd = o.data.dof.focus_distance
             
